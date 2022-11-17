@@ -1,0 +1,118 @@
+.intro-section {
+    background-color: #1B262F;
+    height: 472px;
+
+    @media screen and(max-width:768px) {
+        width: 1100px;
+        margin-top: 350px;
+        height: 615px;
+        background-image: url(../../images/Bitmap-_2_.webp);
+        background-size: 1100px;
+        background-repeat: no-repeat;
+
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+
+            &:first-child {
+                position: relative;
+
+                h2 {
+                    margin-top: 170px;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                    font-family: 'Public Sans';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+                    color: #FBFCFE;
+                }
+
+                .second {
+                    margin-left: 209px;
+
+                }
+            }
+
+            .grid {
+                position: absolute;
+
+            }
+        }
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 130px;
+
+
+            h2 {
+                font-family: 'DM Serif Display';
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 56px;
+                color: #FBFCFE;
+                padding-top: 100px;
+            }
+
+            p {
+                font-family: 'Public Sans';
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 28px;
+                color: #FBFCFE;
+                padding-bottom: 32px;
+            }
+
+            .second {
+                padding: 16px 32px;
+                border: 1px solid #FBFCFE;
+                border-radius: 24px;
+                font-family: 'Public Sans';
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 18px;
+                color: #FBFCFE;
+                text-decoration: none;
+                transition: .5s;
+
+                &:hover {
+                    background-color: #FBFCFE;
+                    color: black;
+                }
+
+                &:active {
+                    background-color: #1B262F;
+                    color: black;
+                    opacity: 60%;
+                }
+            }
+
+            .grid {
+                padding-top: 100px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 60px;
+
+                :nth-child(5) {
+                    margin-left: 30px;
+                    margin-top: -5px;
+                }
+
+                :nth-child(6) {
+                    margin-top: -7px;
+                }
+            }
+        }
+    }
+}

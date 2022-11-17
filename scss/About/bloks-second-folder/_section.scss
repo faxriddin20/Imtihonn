@@ -1,0 +1,57 @@
+section {
+    width: 100%;
+    margin: 0 auto;
+
+    .container {
+        align-items: center;
+
+        h1 {
+            font-family: 'DM Serif Display';
+            font-weight: 400;
+            font-size: 56px;
+            line-height: 56px;
+            color: #36536B;
+            padding-left: 460px;
+        }
+
+        .info {
+            padding-left: 260px;
+            padding-left: 460px;
+
+            :first-child {
+                p {
+                    padding-left: 80px;
+
+                }
+
+                :last-child {
+                    padding-bottom: 50px;
+                }
+            }
+
+            div {
+                display: flex;
+                gap: 30px;
+
+                h2 {
+                    font-family: 'DM Serif Display';
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 40px;
+                    color: #36536B
+                }
+
+                p {
+                    font-family: 'Public Sans';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+                    color: #6C8294;
+                    padding-left: 50px;
+                }
+            }
+        }
+    }
+
+
+}

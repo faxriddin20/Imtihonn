@@ -1,0 +1,84 @@
+nav {
+    padding-bottom: 74px;
+
+
+    .container {
+        padding-top: 40px;
+        margin: 0 auto;
+        max-width: 1100px;
+
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+
+            @media screen and(max-width:768px) {
+                padding-left: 30px;
+
+                .frist {
+                    padding-left: 50px;
+                }
+
+                .first-a {
+                    padding: 16px 24px;
+                    text-align: center;
+                    text-decoration: none;
+                    background-color: #BA4270;
+                    border-radius: 24px;
+                    padding: 16px 24px;
+                    font-family: 'Public Sans';
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 18px;
+                    letter-spacing: -0.115385px;
+                    color: #FBFCFE;
+                }
+
+                ul {
+                    margin-right: -360px;
+                }
+            }
+
+            ul {
+                display: flex;
+                gap: 40px;
+                list-style: none;
+                margin-right: 380px;
+                font-family: 'Public Sans';
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 18px;
+                color: #36536B;
+
+                a {
+                    text-decoration: none;
+                    color: #36536B;
+                }
+            }
+
+            .first-a {
+                text-decoration: none;
+                background-color: #BA4270;
+                border-radius: 24px;
+                padding: 16px 24px;
+                font-family: 'Public Sans';
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 18px;
+                letter-spacing: -0.115385px;
+                color: #FBFCFE;
+
+                &:hover {
+                    opacity: 80%;
+                }
+
+                &:active {
+                    opacity: 60%;
+                }
+
+            }
+        }
+
+    }
+}
